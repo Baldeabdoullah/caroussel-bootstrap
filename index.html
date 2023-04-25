@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Bootstrap 5</title>
+  </head>
+  <body>
+
+    <style>
+        .carousel-item {
+            height: 32rem;
+            background: #000;
+            color: black;
+            position: relative;
+           
+
+        }
+
+        .container {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding-bottom: 20px;
+        }
+
+        .overlay-image {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            top: 0;
+            background-position: center;
+            background-size: cover;
+            opacity: 0.7;
+
+        }
+
+        .paragraph1 {
+            font-size: 19px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+        }
+
+        .paragraph2 {
+            font-size: 19px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+            color: white;
+
+        }
+    </style>
+
+
+  <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" >
+
+    <ol class="carousel-indicators">
+        <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+    </ol>
+
+        <div class="carousel-inner">
+
+             <div class="carousel-item active">
+                <div class="overlay-image"  style="background-image: url(./montre1.jpg);"></div>
+                 <div class="container">
+          <h2>Montres de luxes</h2>
+            <p class="paragraph1">Parcequ'une montre ne sert pas qu'a voir l'heure, Nous mettons a votre disposition 
+                des montres de marques fabriqués  à partir du cuir confectioné par des artisans locaux </p>
+                  <a href="#" class="btn btn-lg btn-primary">Voir plus</a>
+                  </div>
+             </div>
+
+
+
+             <div class="carousel-item ">
+                <div class="overlay-image"  style="background-image: url(./montre2.jpg);"></div>
+                        <div class="container">
+                            <h2>Montres de luxes</h2>
+                            <p class="paragraph1">Parcequ'une montre ne sert pas qu'a voir l'heure, Nous mettons a votre disposition 
+                                des montres de marques fabriqués  à partir du cuir confectioné par des artisans locaux </p>
+                          <a href="#" class="btn btn-lg btn-primary">Voir plus</a>
+                          </div>
+                     </div>
+
+
+
+                     
+             <div class="carousel-item ">
+                <div class="overlay-image"  style="background-image: url(./montre4.jpg);"></div>
+                        <div class="container">
+                            <h2 style="color: white;">Montres de luxes</h2>
+                            <p class="paragraph2">Parcequ'une montre ne sert pas qu'a voir l'heure, Nous mettons a votre disposition 
+                                des montres de marques fabriqués  à partir du cuir confectioné par des artisans locaux </p>
+                          <a href="#" class="btn btn-lg btn-primary">Voir plus</a>
+                          </div>
+                     </div>
+
+
+             </div>
+
+
+        </div>
+
+
+        <a href="#myCarousel" class="carousel-control-prev " role="button" data-bs-slide="prev" >
+           
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+
+
+        <a href="#myCarousel" class="carousel-control-next " role="button" data-bs-slide="next" >
+            
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+   </div>    
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+
+  </body>
+</html>
